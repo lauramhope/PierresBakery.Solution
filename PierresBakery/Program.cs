@@ -17,18 +17,23 @@ namespace PierresBakery
         Console.WriteLine("~* Every 3rd loaf is free *~");
         Console.WriteLine("Pastries are $2 each, or buy 3 get 1 free!");
         Console.WriteLine("~* Every 4th pastry is free *~");
+        Console.WriteLine("Now serving coffee for $3 per cup!");
         Console.ResetColor();
 
         Console.WriteLine("How many loaves of bread would you like?");
         int breadQuantity = int.Parse(Console.ReadLine());
         Console.WriteLine("How many pastries would you like?");
         int pastryQuantity = int.Parse(Console.ReadLine());
+        Console.WriteLine("How many cups of coffee would you like?");
+        int coffeeQuantity = int.Parse(Console.ReadLine());
+        Coffee newCoffee = new Coffee(coffeeQuantity);
         Bread newBread = new Bread(breadQuantity);
         Pastry newPastry = new Pastry(pastryQuantity);
         int breadPrice = newBread.GetBreadPrice(breadQuantity);
         int pastryPrice = newPastry.GetPastryPrice(pastryQuantity);
-        int totalPrice = breadPrice + pastryPrice;
-        Console.WriteLine("Your total is $" + totalPrice + ". Thank you for shopping at Pierre's Bakery!");
+        int coffeePrice = newCoffee.GetCoffeePrice(coffeeQuantity);
+        int totalPrice = breadPrice + pastryPrice + coffeePrice;
+        Console.WriteLine("Your total is $" + totalPrice + ". Thank you for dining at Pierre's Bakery!");
       }
       catch (Exception ex)
       {
