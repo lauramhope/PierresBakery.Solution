@@ -8,7 +8,6 @@
 
 * _C#_
 * _.NET v6.0_
-* _NuGet_
 * _MSTest.TestAdapter v2.2.10_
 * _MSTest.TestFramework v2.2.10_
 * _Git_
