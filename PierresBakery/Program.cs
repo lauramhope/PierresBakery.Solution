@@ -12,11 +12,13 @@ namespace PierresBakery
       try 
       {
         Console.ForegroundColor = ConsoleColor.Green;
+        Console.WriteLine("~*~*~*~*~*~*~*~*~*~*~*~*~*~*");
         Console.WriteLine("Welcome to Pierre's Bakery!");
+        Console.WriteLine("~*~*~*~*~*~*~*~*~*~*~*~*~*~*");
         Console.WriteLine("Bread is $5 per loaf, or buy 2 get 1 free!");
-        Console.WriteLine("~* Every 3rd loaf is free *~");
+        Console.WriteLine("--> SALE: Every 3rd loaf is free <--");
         Console.WriteLine("Pastries are $2 each, or buy 3 get 1 free!");
-        Console.WriteLine("~* Every 4th pastry is free *~");
+        Console.WriteLine("--> SALE: Every 4th pastry is free <--");
         Console.WriteLine("Now serving coffee for $3 per cup!");
         Console.ResetColor();
 
