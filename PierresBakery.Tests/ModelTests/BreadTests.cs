@@ -32,5 +32,11 @@ namespace PierresBakery.Tests
       Assert.AreEqual(15, Bread.GetBreadPrice(4));
     }
 
+    [TestMethod]
+    public void GetBreadPrice_ReturnsBreadPriceWithDiscountAndRemainder2_Int()
+    {
+      Assert.AreEqual(20, Bread.GetBreadPrice(5));
+    }
+
   }
 }
