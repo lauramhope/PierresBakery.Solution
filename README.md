@@ -11,6 +11,8 @@
 * _NuGet_
 * _MSTest.TestAdapter v2.2.10_
 * _MSTest.TestFramework v2.2.10_
+* _Git_
+* _VSCode_
 
 ## Description
 
@@ -20,6 +22,11 @@ _This application demonstrates using C#/.NET to display total price for bread an
 
 * _Clone “PierresBakery.Solution“ from the repository to your desktop_
 * _Navigate to "PierresBakery.Solution" directory via your local terminal command line_
+* _Navigate to the production directory "PierresBakery"_
+* _Once in the production directory, type "dotnet build" in the command line to construct the program and compile the code_
+* _Enter "dotnet run" to initialize the program in the terminal_
+* _Answer the prompts via the terminal command line to obtain final total price_
+* _Optional: if you want to run tests, navigate to "PierresBakery.Tests" directory and enter "dotnet test"_
 
 ## Known Bugs
 
